@@ -1,0 +1,217 @@
+*{
+    font-family: 'Poppins';
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{background-color: white;}
+a,a:hover{
+    text-decoration: none;
+}
+img{border-radius: 12px !important;}
+.mt120{margin-top: 120px !important;}
+.inner{
+    padding-left: 279px !important;
+    padding-right: 279px !important;
+    padding-bottom: 120px !important;
+}
+
+.p395120{padding: 120px 395px !important;}
+.inner_f{padding:120px 271px !important;}
+.mt184{margin-top: 184px;}
+.mr32{margin-right: 32px !important;}
+.mb32{margin-bottom: 32px !important;}
+.mt14{margin-top: 14px !important;}
+h1{
+    color: white !important;
+    font-size: 48px !important;
+    font-weight: 600 !important;
+    line-height: 62px !important;
+}
+h2{
+ font-weight: 600 !important;
+ font-size: 32px !important;
+ line-height: 48px !important;
+ margin-bottom: 32px !important;
+}
+span{
+    color: #979797;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+p{
+    color: #161414;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+}
+
+.btn_view{
+    background-color: #F6F4FF;
+    width: 105px;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 13px;
+    position: relative;
+    a{color: #7B61FF;}
+}
+.btn_icon a::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 13px;
+    margin-right: 14px;
+    content: url("../img/icon/btn_more_icon.svg");
+  }
+.p_button{
+    background-color: #7B61FF;
+    border-radius: 12px;
+    a{color: white;}
+    transition: 0.9s;
+}
+
+img.p_button{padding: 20px; position: absolute; top: 0; right: 0; margin-right: -10px;}
+.text_300{
+    width: 300px;
+    height: 72px;
+    img{padding: 25px 16px;}
+}
+
+
+#hd{
+    background-color: transparent;
+    a{color: white;}
+    span{
+        color: #979797;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    ul{
+        margin: 0;
+        li{
+            a{opacity: 0.7;}
+        }
+    }
+    p{
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .red_d{
+        position: relative;
+       img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+       }
+        span{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 12px;height: 12px;
+            border-radius: 50%;
+            border: 1px solid #161414;
+            background-color: #ff0000;
+        }
+    }
+}
+#mainbg{
+    height: 866px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 0px 0px 60px 60px;
+    p.p_button{
+        width: 272px;height: 72px;
+        font-size: 18px;
+        line-height: 4.5rem;
+        font-weight: 500;
+    }
+    p.p_button:hover{
+        background-color: white;
+        a{color: #7B61FF;}
+    }
+    .search_Box{
+        margin-left: 389px;
+        margin-right: 389px;
+        border-radius: 12px;
+        ul{
+            padding: 8px;
+            height: 88px;
+        }
+    }
+   
+    
+}
+#popular{
+    img{
+        margin-bottom: 8px;
+    }
+}
+#hotels{
+    .h-img{
+        img{
+            margin-bottom: 10px;
+        }
+    }
+    .mapicon{margin-top: 12px;}
+    .mapicon::before{content:url(../img/icon/mapicon.svg); padding-right: 6px; }
+}
+#travel{
+   .postinfo{
+    li{margin-right: 27px;}
+    li::before{padding-right: 5px;}
+    li:first-child::before{content:url(../img/icon/travel-icon-1.svg);}
+    li:nth-child(2)::before{content:url(../img/icon/travel-icon-2.svg);}
+    li:last-child::before{content:url(../img/icon/travel-icon-3.svg);}
+   }
+
+}
+#activites{
+    img{
+        margin-bottom: 16px;
+    }
+}
+#about{
+.btn_view{margin-top: 32px;}
+}
+#ft{
+    background: #F9F9F9;
+    .logo{
+        width: 80px;
+        margin-bottom: 24px;
+    }
+    
+    .sns{
+        margin-top: 35px;
+        img{
+            margin-right: 37px;
+        }
+    }
+    ul{
+        li{
+            p{margin-bottom: 20px;}
+            span{
+                margin-bottom: 12px;
+                a{
+                    color: #979797;
+                }
+            }
+        }
+    }
+    .mailBox{
+        background-color: #fff;
+        padding-right: 56px;
+        word-break: keep-all;
+    }
+    .mailBox>div::before{
+        content: url(../img/icon/msg.svg);
+    }
+}
+
